@@ -83,3 +83,72 @@
     font-size: 16px;
 }
 /*banner结束*/
+
+
+/*新鲜好物 开始*/
+.hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 30px;
+}
+
+.hd h2 {
+    font-size: 30px;
+}
+
+.hd h2 span {
+    margin-left: 30px;
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.hd .all {
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.hd .all:hover {
+    color: var(--green);
+}
+
+.bd ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bd li {
+    width: 304px;
+    height: 404px;
+    background-color: #eef9f4;
+    text-align: center;
+}
+
+.bd li:hover {
+    margin-top: -5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.42);
+    transition: all 0.2s;
+}
+
+.bd li a {
+    display: block;
+    height: 100%;
+}
+
+.bd li h4 {
+    margin: 18px 15px 9px;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bd li p {
+    font-size: 18px;
+    color: #aa2113;
+}
+
+.bd li p span {
+    font-size: 22px;
+}
+/*新鲜好物 结束*/
