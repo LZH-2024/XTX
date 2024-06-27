@@ -9,9 +9,9 @@
 /*变量*/
 :root {
     /*灰色*/
-    --ga: #a1a1a1;
+    --gray: #a1a1a1;
     /*绿色*/
-    --gr: #00be9a;
+    --green: #00be9a;
 }
 
 /*头部开始*/
@@ -27,7 +27,7 @@
     color: #ffffff;
 }
 
-.shortcut .wrapper ul{
+.shortcut .wrapper ul {
     display: flex;
 }
 
@@ -39,12 +39,12 @@
     line-height: 14px;
 }
 
-.shortcut .wrapper ul li:last-child a{
+.shortcut .wrapper ul li:last-child a {
     border-right: none;
 }
 
 .shortcut .wrapper ul a:hover {
-    color: var(--gr);
+    color: var(--green);
 }
 
 .shortcut .wrapper ul a i {
@@ -92,8 +92,8 @@
 }
 
 .header .nav ul li a:hover {
-    color: var(--gr);
-    border-bottom: 2px solid var(--gr);
+    color: var(--green);
+    border-bottom: 2px solid var(--green);
 }
 
 .header .search {
@@ -148,4 +148,134 @@
     left: 20px;
     top: 0;
 }
+
 /*头部结束*/
+
+
+/*底部开始*/
+.footer {
+    height: 582px;
+    background-color: #f5f5f5;
+}
+
+.service {
+    padding: 60px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.service ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 190px;
+    height: 58px;
+}
+
+.service li h5 {
+    overflow: hidden;
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprite.png);
+    text-indent: -9999px;
+}
+
+.service li:nth-child(2) h5 {
+    background-position: 0 -58px;
+}
+
+.service li:nth-child(3) h5 {
+    background-position: 0 -116px;
+}
+
+.service li:nth-child(4) h5 {
+    background-position: 0 -174px;
+}
+
+.service li p {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.help {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding-top: 60px;
+}
+
+.help .left {
+    display: flex;
+}
+
+.help .left dl {
+    margin-right: 80px;
+}
+
+.help .left dt {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.help .left dd {
+    margin-bottom: 10px;
+}
+
+.help .left dd a {
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.help .left dd a:hover {
+    text-decoration: underline;
+}
+
+.help .left dd span {
+    color: var(--green);
+    font-size: 18px;
+}
+
+.help .right ul {
+    display: flex;
+}
+
+.help .right ul li:nth-child(2) {
+    margin-left: 55px;
+}
+
+.help .right img {
+    width: 120px;
+    height: 120px;
+}
+
+.help .right p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: var(--gray);
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    color: var(--gray);
+    line-height: 30px;
+}
+
+.copyright a {
+    text-align: center;
+    color: var(--gray);
+}
+
+.copyright a:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.copyright span {
+    margin: 0 5px;
+}
+/*底部结束*/
