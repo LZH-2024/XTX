@@ -152,3 +152,14 @@
     font-size: 22px;
 }
 /*新鲜好物 结束*/
+
+/*人气推荐 开始*/
+.recommend .bd li {
+    background-color: #fff;
+}
+
+.recommend .bd p{
+    font-size: 16px;
+    color: var(--gray);
+}
+/*人气推荐 结束*/
