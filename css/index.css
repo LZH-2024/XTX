@@ -320,3 +320,77 @@
     text-decoration: underline;
 }
 /*生鲜 结束*/
+
+/*最新专题 开始*/
+.new {
+    margin-bottom: 50px;
+}
+
+.new .bd ul {
+    height: 355px;
+}
+
+.new .bd li {
+    width: 405px;
+    height: 355px;
+    background-color: #fff;
+}
+
+.new .bd .pic {
+    position: relative;
+    width: 405px;
+    height: 288px;
+}
+
+.new .pic .txt {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    padding: 20px 15px 0;
+    background-image: linear-gradient(transparent,rgba(0,0,0,.6));
+}
+
+.new .txt h5 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.new .txt .left p {
+    margin-top: 5px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+}
+
+.new .txt .right {
+    width: 79px;
+    height: 29px;
+    background-color: #fff;
+    align-self: center;
+    text-align: center;
+    color: #aa2113;
+}
+
+.new .desc {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.new .desc span {
+    font-size: 14px;
+    color: #666666;
+}
+
+.new .desc i {
+    margin-right: 3px;
+}
+
+.new .desc .icon-favorites-fill{
+    color: #aa2113;
+}
+/*最新专题 结束*/
