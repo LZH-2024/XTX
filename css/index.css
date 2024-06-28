@@ -198,3 +198,125 @@
     height: 306px;
 }
 /*热门品牌 结束*/
+
+
+/*生鲜 开始*/
+.fresh .hd h2 {
+    flex: 1;
+}
+
+.fresh .hd ul {
+    display: flex;
+    margin-right: 65px;
+}
+
+.fresh .hd ul a {
+    padding: 0 6px;
+}
+
+
+.fresh .hd ul a:hover {
+    background-color: var(--green);
+    color: #fff;
+}
+
+.fresh .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fresh .content .left {
+    width: 248px;
+    height: 610px;
+}
+
+.fresh .content .right {
+    width: 968px;
+    height: 610px;
+}
+
+.fresh .right ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fresh .right ul li {
+    overflow: hidden;
+    position: relative;
+    width: 242px;
+    height: 304px;
+    border: 2px solid transparent;
+    transition: all .3s;
+}
+
+.fresh .right ul li:hover {
+    border-color: var(--green);
+}
+
+.fresh .right li a {
+    display: block;
+    padding: 10px 20px 0;
+}
+
+.fresh .right .pic {
+    width: 200px;
+    height: 180px;
+}
+
+.fresh .right .info {
+    width: 200px;
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.fresh .right .info h5 {
+    font-size: 16px;
+}
+
+.fresh .right .price {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #af2f22;
+}
+
+.fresh .right .price span {
+    font-size: 22px;
+}
+
+.fresh .right .find {
+    position: absolute;
+    bottom: -100%;
+    width: 242px;
+    height: 84px;
+    padding: 15px 40px 10px;
+    background-color: var(--green);
+    text-align: center;
+    color: #fff;
+    transition: all .3s;
+}
+
+.fresh .right li:hover .find {
+    bottom: 0;
+}
+
+.fresh .right .find h4 {
+    font-size: 18px;
+    line-height: 25px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.11);
+}
+
+.fresh .right .find a {
+    font-size: 13px;
+    color: #fff;
+}
+
+.fresh .right .find i {
+    font-size: 13px;
+}
+
+.fresh .right .find a:hover {
+    text-decoration: underline;
+}
+/*生鲜 结束*/
